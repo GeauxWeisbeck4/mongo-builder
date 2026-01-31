@@ -1,0 +1,28 @@
+{
+  "name": "@geauxweisbeck4/mongo-builder",
+  "version": "0.1.0",
+  "exports": {
+    "./mod": "./src/mod.ts",
+    "./aggregation": "./src/aggregation.ts",
+    "./update": "./src/update.ts",
+    "./integration": "./src/integration.ts"
+  },
+  "tasks": {
+    "test": "deno test --allow-read",
+    "check": "deno check mod.ts aggregation.ts update.ts integration.ts",
+    "publish": "deno publish"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": true,
+    "proseWrap": "preserve"
+  }
+}

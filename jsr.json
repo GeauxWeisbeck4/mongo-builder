@@ -1,0 +1,8 @@
+{
+  "name": "@geauxweisbeck4/mongo-builder",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "publish": {
+    "include": ["mod.ts", "README.md", "LICENSE"]
+  }
+}
